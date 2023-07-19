@@ -6,6 +6,7 @@ import Spacer from "./Spacer";
 import Breadcrumbs from "./Breadcrumbs";
 import Select from "./Select";
 import ShoeSidebar from "./ShoeSidebar";
+import ShoeGrid from "./ShoeGrid";
 
 const ShoeIndex = ({ sortId, setSortId }) => {
   return (
