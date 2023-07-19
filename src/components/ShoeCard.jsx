@@ -42,36 +42,39 @@ const ShoeCard = ({
 };
 
 const Link = styled.a`
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 `;
 
 const Wrapper = styled.article``;
 
 const ImageWrapper = styled.div`
-    position: relative;
+  position: relative;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  width: 100%;
+  border-radius: 16px 16px 4px 4px;
+`;
 
 const Row = styled.div`
-    font-size: 1rem;
+  font-size: 1rem;
 `;
 
 const Name = styled.h3`
-    font-weight: ${WEIGHTS.medium};
-    color: ${COLORS.gray[900]};
+  font-weight: ${WEIGHTS.medium};
+  color: ${COLORS.gray[900]};
 `;
 
 const Price = styled.span``;
 
 const ColorInfo = styled.p`
-    color: ${COLORS.gray[700]};
+  color: ${COLORS.gray[700]};
 `;
 
 const SalePrice = styled.span`
-    font-weight: ${WEIGHTS.medium};
-    color: ${COLORS.primary};
+  font-weight: ${WEIGHTS.medium};
+  color: ${COLORS.primary};
 `;
 
 export default ShoeCard;
